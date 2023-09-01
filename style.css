@@ -1,0 +1,122 @@
+
+
+body{
+    background-image: url('images/DiscordLogo.jpg');
+    background-color: black;
+  }
+
+.center{
+    margin: 20%;
+    width: 100%;
+    border: 3px solid beige;
+    padding: 10px;
+    vertical-align: bottom;
+    
+  }
+
+
+
+.header{
+    font-size: xx-large;
+    color: white;
+    font-family: "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-style: normal;
+    float: left;
+    margin-left: 15% ;
+    margin-top: 3%;
+}
+.subheader{
+    font-size: larger;
+    color: grey;
+    font-family: "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-style: normal;
+    float: left;
+    margin-left: -40% ;
+    margin-top: 3%;
+}
+
+
+.emailname{
+    float: left;
+    margin-left: -52.5%; 
+    font-size: small;
+    color: rgb(168, 167, 167);
+    margin-top: 30px;
+}
+.input{
+    background-color:rgb(34, 33, 33) ;
+    color:#ebe9e9;
+    border: hidden;
+    outline: none;
+    margin-top: .5%;
+    margin-bottom: .5px;
+    width: 50%;
+    line-height: 200%;
+    font-size: large;
+}
+.passwordname{
+    float: left;
+    font-size: small;
+    color:rgb(168, 167, 167);
+    margin-top: 30px;
+}
+.anchor{
+    color: rgb(96, 96, 219);
+    outline: none;
+    text-decoration: none;
+    
+}
+div:hover::after{
+border-bottom: 1px red solid;
+}
+
+.button{
+    font-size: medium;
+    color: aliceblue;
+    background-color: rgb(96, 96, 236);
+    width: 50%;
+    line-height: 250%;
+    border-radius: 5px;
+}
+.container {
+    max-width: 700px;
+    margin: 20px auto;
+    margin-top: 250px;
+    padding: 20px;
+    background-color: rgb(49, 49, 49);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    vertical-align: middle;
+    
+    
+  }
+.register{
+    color: rgb(168, 167, 167);
+}
+.qrcode{
+    height: 200px;
+    float:right;
+    margin-top: -60%;
+    margin-right: 5%;
+}
+.qrheader{
+    height: 210px;
+    float:right;
+    margin-top: -25%;
+    margin-right: 5%;
+    font-size: x-large;
+    font-family: "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: whitesmoke;
+}
+.qrtext{
+    float:right;
+    font-family: "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: medium;
+    color: rgb(196, 194, 194);
+    margin-right: -10%;
+    max-width: 70%;
+    margin-top: 50%;
+}
+.color{
+    color:rgb(146, 146, 146)
+}
