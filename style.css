@@ -3,6 +3,7 @@
 .htmlbody{
     background-image: url('images/DiscordLogo.jpg');
     background-color: black;
+    overflow: hidden;
   }
 
 .center{
@@ -78,8 +79,9 @@
 }
 .container {
     max-width: 700px;
-    margin: 20px auto;
-    margin-top: 250px;
+    position: absolute;
+    top: 200px;
+    left: 630px;
     padding: 20px;
     background-color: rgb(49, 49, 49);
     border-radius: 5px;
