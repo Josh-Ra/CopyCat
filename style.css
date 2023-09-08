@@ -1,6 +1,6 @@
 
 
-body{
+.htmlbody{
     background-image: url('images/DiscordLogo.jpg');
     background-color: black;
   }
@@ -66,9 +66,7 @@ body{
     text-decoration: none;
     
 }
-div:hover::after{
-border-bottom: 1px red solid;
-}
+
 
 .button{
     font-size: medium;
